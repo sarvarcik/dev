@@ -90,3 +90,21 @@ for i in range(t):
     x.append(top(n).index(k))
 for i in x:
     print(i)
+
+    
+#0749
+a=list(map(int,input().split()))
+d=input()
+a.sort()
+if d=='ABC':
+  print(f'{a[0]} {a[1]} {a[2]}')
+elif d=='CBA':
+  print(f'{a[2]} {a[1]} {a[0]}')
+elif d=='BAC':
+  print(f'{a[1]} {a[0]} {a[2]}')
+elif d=='CAB':
+  print(f'{a[2]} {a[0]} {a[1]}')
+elif d=='ACB':
+  print(f'{a[0]} {a[2]} {a[1]}')
+elif d=='BCA':
+  print(f'{a[1]} {a[2]} {a[0]}')
