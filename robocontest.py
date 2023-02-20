@@ -42,3 +42,10 @@ else:
 #0606
 a=input()
 print(int(a, base=2))
+
+
+#0458
+t=int(input())
+for i in range(t):
+  n=int(input())
+  print(n*(n-1))
