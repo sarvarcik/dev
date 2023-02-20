@@ -49,3 +49,11 @@ t=int(input())
 for i in range(t):
   n=int(input())
   print(n*(n-1))
+  
+  
+#0535
+n=int(input())
+if n==1 or n==2:
+  print(n)
+else:
+  print(n*(n-1)*(n-2))
