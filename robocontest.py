@@ -31,9 +31,14 @@ else:
   
   
 #0389
-#0389
 a = input().split('.')
 if int(a[0])<=255 and int(a[1])<=255 and int(a[2])<=255 and int(a[3])<=255:
   print('YES')
 else:
   print('NO')
+  
+  
+  
+#0606
+a=input()
+print(int(a, base=2))
