@@ -12,3 +12,28 @@ if n%11==0:
   print("Yes")
 else:
   print("No")
+
+  
+#0605
+n=int(input())
+if n%3==0:
+  print("Yes")
+else:
+  print("No")
+  
+  
+#0549
+z=input()
+if (z.count("z")*2)==z.count("o"):
+  print("Yes")
+else:
+  print("No")
+  
+  
+#0389
+#0389
+a = input().split('.')
+if int(a[0])<=255 and int(a[1])<=255 and int(a[2])<=255 and int(a[3])<=255:
+  print('YES')
+else:
+  print('NO')
