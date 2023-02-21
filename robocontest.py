@@ -108,3 +108,19 @@ elif d=='ACB':
   print(f'{a[0]} {a[2]} {a[1]}')
 elif d=='BCA':
   print(f'{a[1]} {a[2]} {a[0]}')
+
+  
+  
+#0649
+import datetime
+k, o, y = map(int,input().split())
+x = datetime.datetime(y, o, k)
+
+d = x.strftime("%A")
+print(d.upper())
+
+
+#0913
+v1, v2 = input().split()
+
+print((max(abs(ord(v1[0])-ord(v2[0])), abs(int(v1[1])-int(v2[1])))+1)//2)
