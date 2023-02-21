@@ -124,3 +124,19 @@ print(d.upper())
 v1, v2 = input().split()
 
 print((max(abs(ord(v1[0])-ord(v2[0])), abs(int(v1[1])-int(v2[1])))+1)//2)
+
+
+
+
+#0324
+import math
+n=int(input())
+s=n-2
+if n%2!=0:
+    print(s)
+else:
+    for i in range(n):
+        s-=1
+        if math.gcd(n, s)==1:
+            print(s)
+            break
