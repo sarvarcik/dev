@@ -140,3 +140,19 @@ else:
         if math.gcd(n, s)==1:
             print(s)
             break
+
+            
+            
+            
+            
+#0380
+x1, y1 = input().split()
+x2, y2 = input().split()
+x1=ord(x1)-97
+y1 = int(y1)
+x2=ord(x2)-97
+y2 = int(y2)
+if (abs(x1-x2)==2 and abs(y1-y2)==1) or (abs(x1-x2)==1 and abs(y1-y2)==2):
+  print('YES')
+else:
+  print('NO')
