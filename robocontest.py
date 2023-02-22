@@ -156,3 +156,32 @@ if (abs(x1-x2)==2 and abs(y1-y2)==1) or (abs(x1-x2)==1 and abs(y1-y2)==2):
   print('YES')
 else:
   print('NO')
+  
+  
+  
+  
+#0302
+import string
+h = input()
+a = list(string.ascii_letters)
+for i in a:
+  print(i+' '+str(h.count(i)))
+  
+  
+  
+#0448
+a, b, c, x = map(int,input().split())
+f = a*x*x+b*x+c
+if f==0:
+  print('YES')
+else:
+  print('NO')
+  
+  
+  
+#0474
+N= int(input())
+if N%2==0:
+  print("G'ani")
+else:
+  print('Ali')
