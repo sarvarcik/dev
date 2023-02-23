@@ -184,4 +184,16 @@ N= int(input())
 if N%2==0:
   print("G'ani")
 else:
-  print('Ali')
+  print('Ali').
+  
+  
+  
+#0772
+n,k=map(int,input().split())
+if 3*n>=k:
+  if k>=2:
+    print("YES")
+  else:
+    print("NO")
+else:
+  print("NO")
