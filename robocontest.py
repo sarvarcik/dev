@@ -197,3 +197,58 @@ if 3*n>=k:
     print("NO")
 else:
   print("NO")
+  
+  
+  
+#0778
+t= int(input())
+for i in range(t):
+  n=int(input())
+  if n%9==0:
+    a=9
+  else:
+    a=n%9
+  print(a)
+  
+  
+  
+  
+  
+ #0373
+a = int(input())
+if len(str(a))==6 and int(str(a)[0])+int(str(a)[1])+int(str(a)[2])==int(str(a)[3])+int(str(a)[4])+int(str(a)[5]):
+  print('YES')
+else:
+  print('NO')
+  
+  
+  
+  
+#0693
+t = int(input())
+a = input().split()
+h=''
+for i in a:
+  if len(i)>t:
+    h+=i[::-1]+' '
+  else:
+    h+=i+' '
+print(h.strip())
+
+
+
+
+#0301
+t = int(input())
+d = input().split()
+for i in range(t):
+
+
+  if int(i)+1==int(d[i]):
+    h='YES'
+  else:
+
+    h='NO'
+    break
+    
+print(h)
